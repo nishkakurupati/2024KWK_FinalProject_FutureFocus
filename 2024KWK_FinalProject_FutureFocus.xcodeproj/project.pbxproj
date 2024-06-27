@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD48CF472C2DBEB700226B08 /* ChooseActivityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48CF462C2DBEB700226B08 /* ChooseActivityPage.swift */; };
+		BD48CF812C2DD1E800226B08 /* FourthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48CF802C2DD1E800226B08 /* FourthPage.swift */; };
+		BD48CF852C2DDA6B00226B08 /* Stem_Internships.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48CF842C2DDA6B00226B08 /* Stem_Internships.swift */; };
+		BD48CFA12C2DDBC000226B08 /* Stem_Camps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48CFA02C2DDBC000226B08 /* Stem_Camps.swift */; };
+		BD48CFA32C2DDBFD00226B08 /* Stem_Volunteering.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48CFA22C2DDBFD00226B08 /* Stem_Volunteering.swift */; };
+		BD48CFA52C2DDC3600226B08 /* Stem_Clubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48CFA42C2DDC3600226B08 /* Stem_Clubs.swift */; };
+		BD48CFA72C2DDC5C00226B08 /* Stem_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48CFA62C2DDC5C00226B08 /* Stem_Info.swift */; };
+		BD48CFA92C2DF5B600226B08 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48CFA82C2DF5B600226B08 /* SecondPage.swift */; };
+		BD48CFAB2C2DF5D800226B08 /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48CFAA2C2DF5D800226B08 /* ThirdPage.swift */; };
+		BD48CFAD2C2DF98200226B08 /* ThirdPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48CFAC2C2DF98200226B08 /* ThirdPage2.swift */; };
 		BD81AB9B2C2CACDA00540C14 /* _024KWK_FinalProject_FutureFocusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81AB9A2C2CACDA00540C14 /* _024KWK_FinalProject_FutureFocusApp.swift */; };
 		BD81AB9D2C2CACDA00540C14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81AB9C2C2CACDA00540C14 /* ContentView.swift */; };
 		BD81AB9F2C2CACDB00540C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD81AB9E2C2CACDB00540C14 /* Assets.xcassets */; };
@@ -14,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD48CF462C2DBEB700226B08 /* ChooseActivityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseActivityPage.swift; sourceTree = "<group>"; };
+		BD48CF802C2DD1E800226B08 /* FourthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthPage.swift; sourceTree = "<group>"; };
+		BD48CF842C2DDA6B00226B08 /* Stem_Internships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stem_Internships.swift; sourceTree = "<group>"; };
+		BD48CFA02C2DDBC000226B08 /* Stem_Camps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stem_Camps.swift; sourceTree = "<group>"; };
+		BD48CFA22C2DDBFD00226B08 /* Stem_Volunteering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stem_Volunteering.swift; sourceTree = "<group>"; };
+		BD48CFA42C2DDC3600226B08 /* Stem_Clubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stem_Clubs.swift; sourceTree = "<group>"; };
+		BD48CFA62C2DDC5C00226B08 /* Stem_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stem_Info.swift; sourceTree = "<group>"; };
+		BD48CFA82C2DF5B600226B08 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		BD48CFAA2C2DF5D800226B08 /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
+		BD48CFAC2C2DF98200226B08 /* ThirdPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage2.swift; sourceTree = "<group>"; };
 		BD81AB972C2CACDA00540C14 /* 2024KWK_FinalProject_FutureFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2024KWK_FinalProject_FutureFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD81AB9A2C2CACDA00540C14 /* _024KWK_FinalProject_FutureFocusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _024KWK_FinalProject_FutureFocusApp.swift; sourceTree = "<group>"; };
 		BD81AB9C2C2CACDA00540C14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +55,7 @@
 		BD81AB8E2C2CACDA00540C14 = {
 			isa = PBXGroup;
 			children = (
+				BD48CFAC2C2DF98200226B08 /* ThirdPage2.swift */,
 				BD81AB992C2CACDA00540C14 /* 2024KWK_FinalProject_FutureFocus */,
 				BD81AB982C2CACDA00540C14 /* Products */,
 			);
@@ -53,6 +74,15 @@
 			children = (
 				BD81AB9A2C2CACDA00540C14 /* _024KWK_FinalProject_FutureFocusApp.swift */,
 				BD81AB9C2C2CACDA00540C14 /* ContentView.swift */,
+				BD48CF462C2DBEB700226B08 /* ChooseActivityPage.swift */,
+				BD48CF802C2DD1E800226B08 /* FourthPage.swift */,
+				BD48CFA82C2DF5B600226B08 /* SecondPage.swift */,
+				BD48CFAA2C2DF5D800226B08 /* ThirdPage.swift */,
+				BD48CFA62C2DDC5C00226B08 /* Stem_Info.swift */,
+				BD48CFA42C2DDC3600226B08 /* Stem_Clubs.swift */,
+				BD48CFA22C2DDBFD00226B08 /* Stem_Volunteering.swift */,
+				BD48CFA02C2DDBC000226B08 /* Stem_Camps.swift */,
+				BD48CF842C2DDA6B00226B08 /* Stem_Internships.swift */,
 				BD81AB9E2C2CACDB00540C14 /* Assets.xcassets */,
 				BD81ABA02C2CACDB00540C14 /* Preview Content */,
 			);
@@ -137,7 +167,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD48CF812C2DD1E800226B08 /* FourthPage.swift in Sources */,
+				BD48CFA32C2DDBFD00226B08 /* Stem_Volunteering.swift in Sources */,
+				BD48CFA12C2DDBC000226B08 /* Stem_Camps.swift in Sources */,
 				BD81AB9D2C2CACDA00540C14 /* ContentView.swift in Sources */,
+				BD48CFA52C2DDC3600226B08 /* Stem_Clubs.swift in Sources */,
+				BD48CFAD2C2DF98200226B08 /* ThirdPage2.swift in Sources */,
+				BD48CFAB2C2DF5D800226B08 /* ThirdPage.swift in Sources */,
+				BD48CFA72C2DDC5C00226B08 /* Stem_Info.swift in Sources */,
+				BD48CFA92C2DF5B600226B08 /* SecondPage.swift in Sources */,
+				BD48CF472C2DBEB700226B08 /* ChooseActivityPage.swift in Sources */,
+				BD48CF852C2DDA6B00226B08 /* Stem_Internships.swift in Sources */,
 				BD81AB9B2C2CACDA00540C14 /* _024KWK_FinalProject_FutureFocusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
