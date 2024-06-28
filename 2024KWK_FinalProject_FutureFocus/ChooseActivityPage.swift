@@ -8,50 +8,54 @@
 import SwiftUI
 
 struct ChooseActivityPage: View {
-    func buttonPressed(){
-        print("")
-    }
     var body: some View {
+        NavigationStack {
         ZStack {
             Color(red: 0.08235294117 ,green:0.19607843137 ,blue: 0.30980392156)
                 .ignoresSafeArea()
-            VStack {
-                Button {
-                } label: {
-                    Image("internships")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .padding(.bottom)
-                }//closes internships
-                Button {
-                } label: {
-                    Image("camps")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .padding(.bottom)
-                }//closes camps
-                Button {
-                } label: {
-                    Image("volunteering")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .padding(.bottom)
-                }//closes volen
-                Button {
-                } label: {
-                    Image("clubs")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                }//closes clubs
-                Button {
-                } label: {
-                    Image("info")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                } //closes information
-                    .padding(.top)
-            }//closes vstack
-        }//closes zstack
+                VStack {
+                    NavigationLink(destination: Stem_Internships()) {
+                        Image("internships1")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .padding(.bottom)
+                    }
+                    NavigationLink(destination: Stem_Camps()) {
+                        Image("programs1")
+                            .resizable()
+                            .aspectRatio(contentMode:.fit)
+                            .padding(.bottom)
+                        //.navigationViewStyle(StackNavigationViewStyle())
+                        //.onTapGesture {
+                            //withAnimation {
+                                
+                            //}
+                        //}
+                    }
+                    NavigationLink(destination: Stem_Volunteering()) {
+                        Image("volunteering1")
+                            .resizable()
+                            .aspectRatio(contentMode:.fit)
+                            .padding(.bottom)
+                    }
+                    NavigationLink(destination: Stem_Clubs()) {
+                        Image("clubs1")
+                            .resizable()
+                            .aspectRatio(contentMode:.fit)
+                            .padding(.bottom)
+                    }
+                    NavigationLink(destination: Stem_Info()) {
+                        Image("info1")
+                            .resizable()
+                            .aspectRatio(contentMode:.fit)
+                            .padding(.bottom)
+                    }
+                } //closes vstack
+                //.navigationTitle("ACTIVITES")
+                //.navigationBarTitleDisplayMode(.inline) //makes "home"(navtitle) subtle
+                //.navigationBarHidden(true) //makes "home"(navtitle) hidden
+            } //closes navigation stack*/
+        }//closes ZStack
     }//closes body
 }//closes struct
 

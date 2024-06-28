@@ -25,7 +25,7 @@ struct ThirdPage: View {
             .fontWeight(.bold)
             .font(.system(size:57))
             .foregroundColor(Color.white)
-            .multilineTextAlignment(.leading)
+            .multilineTextAlignment(.center)
           Spacer()
           NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
             Text("MEDICINE")
@@ -38,7 +38,7 @@ struct ThirdPage: View {
                         .cornerRadius(10.0)
           } //closes nav link
             Spacer()
-          NavigationLink(destination: FourthPage()) {
+          NavigationLink(destination: ChooseActivityPage()) {
             Text("TECHNOLOGY")
                         .font(.largeTitle)
                         .fontWeight(.bold)
